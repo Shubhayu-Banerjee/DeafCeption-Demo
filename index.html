@@ -21,6 +21,7 @@
       display: flex;
       align-items: center;
       margin-top: 20px;
+      position: relative;
     }
 
     #logo {
@@ -40,6 +41,14 @@
       font-size: 16px;
       margin: 0;
       color: #666;
+    }
+
+    /* Golden bar across the entire page, adjusted margin */
+    .golden-bar {
+      width: 100vw;
+      height: 3px;
+      background-color: gold;
+      margin-top: 20px;  /* Added margin to push the bar below the logo */
     }
 
     /* Video wrapper with info button */
@@ -133,6 +142,9 @@
       <p class="tagline">To be heard, To be expressed</p>
     </div>
   </div>
+
+  <!-- Golden bar across the page -->
+  <div class="golden-bar"></div>
 
   <!-- Server note -->
   <p class="tagline" style="margin-top: 8px;">
